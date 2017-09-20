@@ -21,6 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title = @"计步器";
+    
     
     UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, KScreen_Width, KScreen_Width)];
     label.center = self.view.center;

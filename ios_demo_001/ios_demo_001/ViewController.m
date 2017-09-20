@@ -69,12 +69,14 @@
     if (nil == _myData) {//
         _myData = @[@{@"Title": @"指纹识别", @"VCName" : @"TouchViewController"},
                     @{@"Title": @"运动传感器", @"VCName" : @"MotionViewController"},
+                    @{@"Title": @"重力感应", @"VCName" : @"PictureMotionViewController"},
                     @{@"Title": @"加速计小球", @"VCName" : @"BallViewController"},
                     @{@"Title": @"光感感应", @"VCName" : @"ListenViewController"},
                     @{@"Title": @"距离感应", @"VCName" : @"DistanceViewController"},
                     @{@"Title": @"计步器", @"VCName" : @"GyroscopeViewController"},
                     @{@"Title": @"摇一摇", @"VCName" : @"YaoViewController"},
-                    @{@"Title": @"二维码", @"VCName" : @"QRCodeViewController"},];
+                    @{@"Title": @"二维码", @"VCName" : @"QRCodeViewController"},
+                    ];
     }
     return _myData;
 }

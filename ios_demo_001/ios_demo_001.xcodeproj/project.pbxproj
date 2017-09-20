@@ -34,6 +34,9 @@
 		8475D6B61F7101B400E6530B /* QRCode.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8475D6B51F7101B400E6530B /* QRCode.bundle */; };
 		8475D6B91F7103CE00E6530B /* SaoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475D6B81F7103CD00E6530B /* SaoView.m */; };
 		8475D6BC1F71072000E6530B /* SaoSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475D6BB1F71072000E6530B /* SaoSuccessViewController.m */; };
+		84AD10A21F7209DF00378C86 /* PictureMotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD10A11F7209DF00378C86 /* PictureMotionViewController.m */; };
+		84AD10A61F720A2200378C86 /* CoreMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD10A51F720A2200378C86 /* CoreMotion.m */; };
+		84AD10A91F720C5100378C86 /* GravityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD10A81F720C5100378C86 /* GravityView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +109,12 @@
 		8475D6B81F7103CD00E6530B /* SaoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaoView.m; sourceTree = "<group>"; };
 		8475D6BA1F71072000E6530B /* SaoSuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaoSuccessViewController.h; sourceTree = "<group>"; };
 		8475D6BB1F71072000E6530B /* SaoSuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaoSuccessViewController.m; sourceTree = "<group>"; };
+		84AD10A01F7209DF00378C86 /* PictureMotionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureMotionViewController.h; sourceTree = "<group>"; };
+		84AD10A11F7209DF00378C86 /* PictureMotionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureMotionViewController.m; sourceTree = "<group>"; };
+		84AD10A41F720A2200378C86 /* CoreMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreMotion.h; sourceTree = "<group>"; };
+		84AD10A51F720A2200378C86 /* CoreMotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreMotion.m; sourceTree = "<group>"; };
+		84AD10A71F720C5100378C86 /* GravityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityView.h; sourceTree = "<group>"; };
+		84AD10A81F720C5100378C86 /* GravityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +246,9 @@
 			children = (
 				8475D6841F70B5BC00E6530B /* MotionViewController.h */,
 				8475D6851F70B5BC00E6530B /* MotionViewController.m */,
+				84AD10A01F7209DF00378C86 /* PictureMotionViewController.h */,
+				84AD10A11F7209DF00378C86 /* PictureMotionViewController.m */,
+				84AD10A31F720A1200378C86 /* View */,
 			);
 			path = Motion;
 			sourceTree = "<group>";
@@ -323,6 +335,17 @@
 				8475D6B31F70FD1A00E6530B /* QRCodeTools.m */,
 				8475D6B71F7103CD00E6530B /* SaoView.h */,
 				8475D6B81F7103CD00E6530B /* SaoView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84AD10A31F720A1200378C86 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84AD10A41F720A2200378C86 /* CoreMotion.h */,
+				84AD10A51F720A2200378C86 /* CoreMotion.m */,
+				84AD10A71F720C5100378C86 /* GravityView.h */,
+				84AD10A81F720C5100378C86 /* GravityView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -467,12 +490,14 @@
 				8475D64F1F70A93A00E6530B /* ViewController.m in Sources */,
 				8475D68E1F70BB6B00E6530B /* BallViewController.m in Sources */,
 				8475D6821F70B0FD00E6530B /* BaseViewController.m in Sources */,
+				84AD10A61F720A2200378C86 /* CoreMotion.m in Sources */,
 				8475D6BC1F71072000E6530B /* SaoSuccessViewController.m in Sources */,
 				8475D6861F70B5BC00E6530B /* MotionViewController.m in Sources */,
 				8475D6AA1F70F4CB00E6530B /* QRCodeViewController.m in Sources */,
 				8475D6A21F70EDEE00E6530B /* GyroscopeViewController.m in Sources */,
 				8475D69C1F70EBA700E6530B /* DistanceViewController.m in Sources */,
 				8475D6B01F70F52600E6530B /* SaoViewController.m in Sources */,
+				84AD10A21F7209DF00378C86 /* PictureMotionViewController.m in Sources */,
 				8475D64C1F70A93A00E6530B /* AppDelegate.m in Sources */,
 				8475D6A61F70F2BE00E6530B /* YaoViewController.m in Sources */,
 				8475D6B41F70FD1A00E6530B /* QRCodeTools.m in Sources */,
@@ -483,6 +508,7 @@
 				8475D68A1F70BA6900E6530B /* BezierPathView.m in Sources */,
 				8475D6AD1F70F51F00E6530B /* CreatViewController.m in Sources */,
 				8475D6491F70A93A00E6530B /* main.m in Sources */,
+				84AD10A91F720C5100378C86 /* GravityView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,6 +742,7 @@
 				8475D6731F70A93B00E6530B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8475D6741F70A93B00E6530B /* Build configuration list for PBXNativeTarget "ios_demo_001Tests" */ = {
 			isa = XCConfigurationList;
@@ -724,6 +751,7 @@
 				8475D6761F70A93B00E6530B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8475D6771F70A93B00E6530B /* Build configuration list for PBXNativeTarget "ios_demo_001UITests" */ = {
 			isa = XCConfigurationList;
@@ -732,6 +760,7 @@
 				8475D6791F70A93B00E6530B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
