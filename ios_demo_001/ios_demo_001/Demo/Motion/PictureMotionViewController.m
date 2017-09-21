@@ -27,7 +27,7 @@
 - (void)setupUI {
     if (nil == _gravityView) {
         _gravityView = [[GravityView alloc]initWithFrame:self.view.bounds];
-        _gravityView.image = [UIImage imageNamed:@"bgImage"];
+        _gravityView.image = [UIImage imageNamed:@"bgImage_001"];
         [self.view addSubview:_gravityView];
     }
     

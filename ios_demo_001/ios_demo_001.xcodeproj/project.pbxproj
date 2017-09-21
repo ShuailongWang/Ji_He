@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		845CA6E51F736F810080713F /* WordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845CA6E41F736F810080713F /* WordsViewController.m */; };
+		845CA6E91F73829F0080713F /* SpeakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845CA6E81F73829F0080713F /* SpeakViewController.m */; };
+		845CA6EC1F7388DE0080713F /* SpeakLocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845CA6EB1F7388DE0080713F /* SpeakLocalViewController.m */; };
+		845CA6EE1F738DB20080713F /* Jam - 七月上.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 845CA6ED1F738DB20080713F /* Jam - 七月上.mp3 */; };
 		8475D6491F70A93A00E6530B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475D6481F70A93A00E6530B /* main.m */; };
 		8475D64C1F70A93A00E6530B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475D64B1F70A93A00E6530B /* AppDelegate.m */; };
 		8475D64F1F70A93A00E6530B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475D64E1F70A93A00E6530B /* ViewController.m */; };
@@ -57,6 +61,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		845CA6E31F736F810080713F /* WordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordsViewController.h; sourceTree = "<group>"; };
+		845CA6E41F736F810080713F /* WordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordsViewController.m; sourceTree = "<group>"; };
+		845CA6E71F73829F0080713F /* SpeakViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakViewController.h; sourceTree = "<group>"; };
+		845CA6E81F73829F0080713F /* SpeakViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakViewController.m; sourceTree = "<group>"; };
+		845CA6EA1F7388DE0080713F /* SpeakLocalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakLocalViewController.h; sourceTree = "<group>"; };
+		845CA6EB1F7388DE0080713F /* SpeakLocalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakLocalViewController.m; sourceTree = "<group>"; };
+		845CA6ED1F738DB20080713F /* Jam - 七月上.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jam - 七月上.mp3"; sourceTree = "<group>"; };
 		8475D6441F70A93A00E6530B /* ios_demo_001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_demo_001.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8475D6481F70A93A00E6530B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8475D64A1F70A93A00E6530B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -142,6 +153,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		845CA6E21F736F6F0080713F /* Words */ = {
+			isa = PBXGroup;
+			children = (
+				845CA6E31F736F810080713F /* WordsViewController.h */,
+				845CA6E41F736F810080713F /* WordsViewController.m */,
+			);
+			path = Words;
+			sourceTree = "<group>";
+		};
+		845CA6E61F7382960080713F /* Speak */ = {
+			isa = PBXGroup;
+			children = (
+				845CA6E71F73829F0080713F /* SpeakViewController.h */,
+				845CA6E81F73829F0080713F /* SpeakViewController.m */,
+				845CA6EA1F7388DE0080713F /* SpeakLocalViewController.h */,
+				845CA6EB1F7388DE0080713F /* SpeakLocalViewController.m */,
+			);
+			path = Speak;
+			sourceTree = "<group>";
+		};
+		845CA6F11F73A2170080713F /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
 		8475D63B1F70A93A00E6530B = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +208,7 @@
 				8475D64D1F70A93A00E6530B /* ViewController.h */,
 				8475D64E1F70A93A00E6530B /* ViewController.m */,
 				8475D6501F70A93B00E6530B /* Main.storyboard */,
+				845CA6F11F73A2170080713F /* Libs */,
 				8475D67A1F70AA7E00E6530B /* Demo */,
 				8475D6471F70A93A00E6530B /* Supporting Files */,
 			);
@@ -179,6 +218,7 @@
 		8475D6471F70A93A00E6530B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				845CA6ED1F738DB20080713F /* Jam - 七月上.mp3 */,
 				8475D69D1F70EC6900E6530B /* SeeYouAgain.mp3 */,
 				8475D6531F70A93B00E6530B /* Assets.xcassets */,
 				8475D6551F70A93B00E6530B /* LaunchScreen.storyboard */,
@@ -209,6 +249,8 @@
 		8475D67A1F70AA7E00E6530B /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				845CA6E61F7382960080713F /* Speak */,
+				845CA6E21F736F6F0080713F /* Words */,
 				8475D6A71F70F4C300E6530B /* QRCode */,
 				8475D6A31F70F2B600E6530B /* Yao */,
 				8475D69F1F70EDE700E6530B /* Gyroscope */,
@@ -458,6 +500,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8475D6571F70A93B00E6530B /* LaunchScreen.storyboard in Resources */,
+				845CA6EE1F738DB20080713F /* Jam - 七月上.mp3 in Resources */,
 				8475D6541F70A93B00E6530B /* Assets.xcassets in Resources */,
 				8475D6521F70A93B00E6530B /* Main.storyboard in Resources */,
 				8475D6B61F7101B400E6530B /* QRCode.bundle in Resources */,
@@ -497,9 +540,12 @@
 				8475D6A21F70EDEE00E6530B /* GyroscopeViewController.m in Sources */,
 				8475D69C1F70EBA700E6530B /* DistanceViewController.m in Sources */,
 				8475D6B01F70F52600E6530B /* SaoViewController.m in Sources */,
+				845CA6EC1F7388DE0080713F /* SpeakLocalViewController.m in Sources */,
+				845CA6E91F73829F0080713F /* SpeakViewController.m in Sources */,
 				84AD10A21F7209DF00378C86 /* PictureMotionViewController.m in Sources */,
 				8475D64C1F70A93A00E6530B /* AppDelegate.m in Sources */,
 				8475D6A61F70F2BE00E6530B /* YaoViewController.m in Sources */,
+				845CA6E51F736F810080713F /* WordsViewController.m in Sources */,
 				8475D6B41F70FD1A00E6530B /* QRCodeTools.m in Sources */,
 				8475D6B91F7103CE00E6530B /* SaoView.m in Sources */,
 				8475D67E1F70AA9500E6530B /* TouchViewController.m in Sources */,

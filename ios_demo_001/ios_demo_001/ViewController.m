@@ -76,6 +76,9 @@
                     @{@"Title": @"计步器", @"VCName" : @"GyroscopeViewController"},
                     @{@"Title": @"摇一摇", @"VCName" : @"YaoViewController"},
                     @{@"Title": @"二维码", @"VCName" : @"QRCodeViewController"},
+                    @{@"Title": @"文字转语音", @"VCName" : @"WordsViewController"},
+//                    @{@"Title": @"语音转文字实时", @"VCName" : @"SpeakViewController"},
+                    @{@"Title": @"语音转文字本地录音", @"VCName" : @"SpeakLocalViewController"},
                     ];
     }
     return _myData;
