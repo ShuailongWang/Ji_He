@@ -79,6 +79,7 @@
                     @{@"Title": @"文字转语音", @"VCName" : @"WordsViewController"},
 //                    @{@"Title": @"语音转文字实时", @"VCName" : @"SpeakViewController"},
                     @{@"Title": @"语音转文字本地录音", @"VCName" : @"SpeakLocalViewController"},
+                    @{@"Title": @"相机", @"VCName" : @"CameraViewController"},
                     ];
     }
     return _myData;

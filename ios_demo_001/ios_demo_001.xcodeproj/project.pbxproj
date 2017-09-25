@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84279A3D1F74F1670049DA10 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84279A3C1F74F1670049DA10 /* CameraViewController.m */; };
+		84279A401F74F1E90049DA10 /* CameraPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84279A3F1F74F1E90049DA10 /* CameraPictureViewController.m */; };
+		84279A431F74F3DC0049DA10 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84279A421F74F3DC0049DA10 /* UIView+Extension.m */; };
 		845CA6E51F736F810080713F /* WordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845CA6E41F736F810080713F /* WordsViewController.m */; };
 		845CA6E91F73829F0080713F /* SpeakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845CA6E81F73829F0080713F /* SpeakViewController.m */; };
 		845CA6EC1F7388DE0080713F /* SpeakLocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845CA6EB1F7388DE0080713F /* SpeakLocalViewController.m */; };
@@ -61,6 +64,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84279A3B1F74F1670049DA10 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		84279A3C1F74F1670049DA10 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		84279A3E1F74F1E90049DA10 /* CameraPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraPictureViewController.h; sourceTree = "<group>"; };
+		84279A3F1F74F1E90049DA10 /* CameraPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraPictureViewController.m; sourceTree = "<group>"; };
+		84279A411F74F3DC0049DA10 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		84279A421F74F3DC0049DA10 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		845CA6E31F736F810080713F /* WordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordsViewController.h; sourceTree = "<group>"; };
 		845CA6E41F736F810080713F /* WordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordsViewController.m; sourceTree = "<group>"; };
 		845CA6E71F73829F0080713F /* SpeakViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakViewController.h; sourceTree = "<group>"; };
@@ -153,6 +162,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84279A3A1F74F1590049DA10 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				84279A3B1F74F1670049DA10 /* CameraViewController.h */,
+				84279A3C1F74F1670049DA10 /* CameraViewController.m */,
+				84279A3E1F74F1E90049DA10 /* CameraPictureViewController.h */,
+				84279A3F1F74F1E90049DA10 /* CameraPictureViewController.m */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
 		845CA6E21F736F6F0080713F /* Words */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +196,8 @@
 		845CA6F11F73A2170080713F /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				84279A411F74F3DC0049DA10 /* UIView+Extension.h */,
+				84279A421F74F3DC0049DA10 /* UIView+Extension.m */,
 			);
 			path = Libs;
 			sourceTree = "<group>";
@@ -249,6 +271,7 @@
 		8475D67A1F70AA7E00E6530B /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				84279A3A1F74F1590049DA10 /* Camera */,
 				845CA6E61F7382960080713F /* Speak */,
 				845CA6E21F736F6F0080713F /* Words */,
 				8475D6A71F70F4C300E6530B /* QRCode */,
@@ -537,6 +560,8 @@
 				8475D6BC1F71072000E6530B /* SaoSuccessViewController.m in Sources */,
 				8475D6861F70B5BC00E6530B /* MotionViewController.m in Sources */,
 				8475D6AA1F70F4CB00E6530B /* QRCodeViewController.m in Sources */,
+				84279A401F74F1E90049DA10 /* CameraPictureViewController.m in Sources */,
+				84279A431F74F3DC0049DA10 /* UIView+Extension.m in Sources */,
 				8475D6A21F70EDEE00E6530B /* GyroscopeViewController.m in Sources */,
 				8475D69C1F70EBA700E6530B /* DistanceViewController.m in Sources */,
 				8475D6B01F70F52600E6530B /* SaoViewController.m in Sources */,
@@ -553,6 +578,7 @@
 				8475D6941F70BE9500E6530B /* BallView.m in Sources */,
 				8475D68A1F70BA6900E6530B /* BezierPathView.m in Sources */,
 				8475D6AD1F70F51F00E6530B /* CreatViewController.m in Sources */,
+				84279A3D1F74F1670049DA10 /* CameraViewController.m in Sources */,
 				8475D6491F70A93A00E6530B /* main.m in Sources */,
 				84AD10A91F720C5100378C86 /* GravityView.m in Sources */,
 			);

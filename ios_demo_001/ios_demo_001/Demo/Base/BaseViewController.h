@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIView+Extension.h"
 
 #define KScreen_Width   [UIScreen mainScreen].bounds.size.width
 #define KScreen_Height  [UIScreen mainScreen].bounds.size.height
